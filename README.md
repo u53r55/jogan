@@ -10,7 +10,7 @@
 First Do This :<br>
 Termux :<br>
 
-pkg install git && python2<br>
+>   pkg install git && python2<br>
 
 Ubuntu :<br>
 >   sudo apt-get install python2 && git<br>
