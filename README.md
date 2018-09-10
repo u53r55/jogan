@@ -9,10 +9,14 @@
 # Usage :
 First Do This :<br>
 Termux :<br>
+
 pkg install git && python2<br>
+
 Ubuntu :<br>
 >   sudo apt-get install python2 && git<br>
+
 Now :<br>
+
 >   git clone github.com/m4rktn/jogan/<br>
 >   cd jogan<br>
 >   python jogan.py<br>
@@ -23,4 +27,5 @@ Now :<br>
 <img src='https://raw.githubusercontent.com/m4rktn/jogan/master/konoha1.png'>
 <img src='https://raw.githubusercontent.com/m4rktn/jogan/master/konoha.png'>
 😈 arigato gozaimasu 😈<br>
+
 # Thnx To Zakarya☣☣Addala ©
