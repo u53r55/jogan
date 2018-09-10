@@ -1,11 +1,13 @@
 # JoganInstaller
-<b><p> Naruto has Been A Hokage 
-    and Boruto Want to Be Like Sasuke 
-    And You Still To Try This Tool xD</p>
-<h3>[+]</h3> Python&Perl Installer Modules <br>
-<h3>[+]</h3> Pentest Tools Installer<br>
-<h3>[+]</h3> Services Installer <br>
+<b><p> Naruto has Been A Hokage <br>
+    and Boruto Want to Be Like Sasuke <br>
+    And You Still To Try This Tool xD</p></b><br>
++ Python&Perl Installer Modules <br>
++ Pentest Tools Installer<br>
++ Services Installer <br>
     jogan > echo enjoy Men ^_^
+# Usage :
+
 <br>
 # Screen
 <a href="https://youtube.com/c/M4rkWalker" target="_blank"><img src="https://raw.githubusercontent.com/m4rktn/jogan/master/hokage.png"/></a>
