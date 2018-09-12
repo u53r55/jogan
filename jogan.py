@@ -237,11 +237,11 @@ def nigga():
 		elif msf =='44':
 			os.system('git clone https://github.com/laramies/theHarvester && cd theHarvester && chmod +x theHarvester.py && ./theHarvester.py')
 		elif msf =='45':
-			os.system('git clone git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git && cd recon-ng && pip install -r REQUIREMENTS && ./recon-ng -h')
+			os.system('git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git && cd recon-ng && pip install -r REQUIREMENTS && ./recon-ng -h')
 		elif msf =='46':
 			os.system('git clone https://github.com/Hood3dRob1n/BinGoo && cd binGoo && chmod +x bingoo && ./bingoo')
 		elif msf =='47':
-			os.system('git clone https://github.com/p4kl0nc4t/Spammer-Email && Spammer-Email && echo usage : python spammer_email.py')
+			os.system('git clone https://github.com/p4kl0nc4t/Spammer-Email && cd Spammer-Email && echo usage : python spammer_email.py')
 		elif msf =='48':
 			os.system('git clone https://github.com/xHak9x/fbi && cd fbi && pip2 install -r requirements.txt && python2 fbi.py')
 		elif msf =='49':
@@ -278,11 +278,11 @@ def nigga():
 	 if sasuke =='1':
 			os.system('wget https://www.apachefriends.org/xampp-files/7.2.9/xampp-linux-x64-7.2.9-0-installer.run && chmod +x xampp-linux-x64-7.2.9-0-installer.run && ./xampp-linux-x64-7.2.9-0-installer.run')
 	 elif sasuke=='2':
-			os.system('mkdir torBorwser && torBrowser && wget https://www.torproject.org/dist/torbrowser/8.0/tor-browser-linux64-8.0_en-US.tar.xz && cd tor-browser-linux64-8.0_en-US/Browser && chmod +x start-tor-browser && echo usage : run click To start-tor-browser or rdream@zack:~$./start-tor-browser')
+			os.system('mkdir torBrowser && cd torBrowser && wget https://www.torproject.org/dist/torbrowser/8.0/tor-browser-linux64-8.0_en-US.tar.xz && cd tor-browser-linux64-8.0_en-US/Browser && chmod +x start-tor-browser && echo usage : run click To start-tor-browser or rdream@zack:~$./start-tor-browser')
 	 elif sasuke=='3':
 			os.system('sudo apt-get install postgresql postgresql-contrib')
 	 elif sasuke=='4':
-			os.system('git clone https://github.com/beefproject/beef && chmod +x install && ./install')
+			os.system('git clone https://github.com/beefproject/beef && && cd beefproject && chmod +x install && ./install')
 	 elif sasuke=='5':
 			os.system('git clone https://github.com/dradis/dradis-ce.git && cd dradis-ce/ && ./bin/setup')
 	 elif sasuke=='6':
