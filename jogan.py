@@ -309,7 +309,8 @@ def nigga():
 	4) Beef
 	5) Dradis
 	6) Openvas
-	7) other (ssh/ftp...)"""
+	7) other (ssh/ftp...)
+	666) Back"""
 	 sasuke=raw_input("%s%sjogan%s > %s"%(star,ramadi,starend,lazra9))
 	 if sasuke =='1':
 			os.system('wget https://www.apachefriends.org/xampp-files/7.2.9/xampp-linux-x64-7.2.9-0-installer.run && chmod +x xampp-linux-x64-7.2.9-0-installer.run && ./xampp-linux-x64-7.2.9-0-installer.run')
@@ -325,6 +326,8 @@ def nigga():
 			os.system('apt-get install python-software-properties && apt-get install sqlite3 && sudo add-apt-repository ppa:mrazavi/openvas && apt-get update && apt-get install openvas') 
 	 elif sasuke=='7':
 			os.system('apt-get install ftp && ssh && filezila && openvpn && rdesktop && sudo ')
+	 elif sasuke=='666':
+	 	nigga()
 	 else:
 	 	baka=raw_input("%sNani Sir ?? Do u need To return ?[Y/n]: \033[00m"%cyan)
 		if baka.upper() =='Y':
