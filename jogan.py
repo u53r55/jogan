@@ -29,23 +29,25 @@ def nigga():
 	print """%s%s
 	########################################################
 	# JoGanInstaller                                       #	
-	# Coded By M4rkWalker                                  #	
+	# Coded By M4rkWalker (Github.com/M4rktn)              #	
 	# Used 4 Linux And Termux                              #	
 	# Packages Installer & Services Panel	               #	
 	# Fix Python And Perl Problems With Installing Modules #	
 	# Install Pentesting Tools                             #	
-	# Update And Upgrade Os                                #	
+	# Update And Upgrade Os...                             #	
 	########################################################
 	%s
 	[%s!%s] U Should Run it With r00t 
-	(1) %sInstall Python-Pip %s
-	(2) %sInstall Important Packages To Ur Linux%s(%sOr Termux%s)
-	(3) %sInstall Modules%s(%sPython %s&%s Perl%s) 
-	(4) %sInstall Pentest tools%s
-	(5) %sUpdate And Upgrade %s
-	(6) %sServices %s
-	(7) %sAbout Th3Coder%s
-	 """%(blid,lasfar,lazra9,la7mar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,la7mar,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9)
+	(1)  %sInstall Python-Pip %s
+	(2)  %sInstall Important Packages To Ur Linux%s(%sOr Termux%s)
+	(3)  %sInstall Modules%s(%sPython %s&%s Perl%s) 
+	(4)  %sInstall Pentest tools%s
+	(5)  %sUpdate And Upgrade %s
+	(6)  %sServices %s
+	(7)  %sTermux'sTouch Keyboard%s
+	(8)  %sAbout Th3Coder & Exit%s
+	(9)  %sUpdate Jogan%s
+	 """%(blid,lasfar,lazra9,la7mar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,la7mar,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9)
 #########   SYsT3M   #########
 	poop =['requests','setuptools','pymssql','crypto','openssl','mechanize','stem','pysocks','fuzzywuzzy','validate_email','wheel','python-Levenshtein','SleekXMPP','xmppy','beautifulsoup4','','','prettytable','colorama','lxml','bs4','dnspython','httplib2']
 	home=['Parallel/ForkManager.pm','WWW::Mechanize;','DBI','HTTP::Response','HTTP::Request','Net::SSLeay','YAML','MIME::Base64','LWP::UserAgent','Getopt::Std','Moose','threads','threads::shared'] 
@@ -84,61 +86,73 @@ def nigga():
 			 os.system("pip install "+keke)
 		
 	elif mark =='4':
+	#### I Think thats Good Tools And Helpful ####
 		print """%s
  %sJoGan Installer%s \033[92m.\033[93m.\033[92m.\033[91m %sCoded By M4rkWalker%s
  Karma is a shiit \033[92m^\033[93m_\033[92m^\033[91m Boruto is Our Sun \033[92m.\033[93m.\033[92m.\033[91m
  [%s!%s] Some Tools Not 4 Termux 
  %s%sChoice%s :%s 
-	[\033[91m1\033[92m]  AutoSploit 
-	[\033[91m2\033[92m]  Nikto
-	[\033[91m3\033[92m]  SQlMap
-	[\033[91m4\033[92m]  Nmap
-	[\033[91m5\033[92m]  Zenmap
-	[\033[91m6\033[92m]  Hydra 
-	[\033[91m7\033[92m]  Ophcrack
-	[\033[91m8\033[92m]  Whatweb
-	[\033[91m9\033[92m]  W3af
-	[\033[91m10\033[92m] Wireshark
-	[\033[91m11\033[92m] John
-	[\033[91m12\033[92m] Netsniff-ng
-	[\033[91m13\033[92m] Ettercap
-	[\033[91m14\033[92m] Droopescan
-	[\033[91m15\033[92m] WPscan
-	[\033[91m16\033[92m] Parse
-	[\033[91m17\033[92m] ZeroEye Key Generator
-	[\033[91m18\033[92m] X-Smash Passlistmaker
-	[\033[91m19\033[92m] Facebook Checker
-	[\033[91m20\033[92m] Instagram Checker
-	[\033[91m21\033[92m] Osif
-	[\033[91m22\033[92m] RedHawk
-	[\033[91m23\033[92m] HttpLiveProxyGrabber
-	[\033[91m24\033[92m] ToolB0x (4 Pentesting)
-	[\033[91m25\033[92m] A-Rat
-	[\033[91m26\033[92m] Metasploit Framawork
-	[\033[91m27\033[92m] Slowloris
+	[\033[91m1\033[92m]  AutoSploit [AutoExploit] 
+	[\033[91m2\033[92m]  Nikto [Pentesting]
+	[\033[91m3\033[92m]  SQlMap [SQLI Scanner]
+	[\033[91m4\033[92m]  Nmap [Info Scanner]
+	[\033[91m5\033[92m]  Zenmap [nmap with gui]
+	[\033[91m6\033[92m]  Hydra [Bruter]
+	[\033[91m7\033[92m]  Ophcrack [Bruter]
+	[\033[91m8\033[92m]  Whatweb [Pentesting]
+	[\033[91m9\033[92m]  W3af [Pentesting]
+	[\033[91m10\033[92m] Wireshark 
+	[\033[91m11\033[92m] John [Bruter]
+	[\033[91m12\033[92m] Netsniff-ng [Sniffing]
+	[\033[91m13\033[92m] Ettercap [sniffing]
+	[\033[91m14\033[92m] Droopescan [Pentesting]
+	[\033[91m15\033[92m] WPscan [Pentesting]
+	[\033[91m16\033[92m] Parse [Pentesting]
+	[\033[91m17\033[92m] ZeroEye [Key Generator] 
+	[\033[91m18\033[92m] X-Smash (Passlistmaker)
+	[\033[91m19\033[92m] Facebook [Bruter]
+	[\033[91m20\033[92m] Instagram [Checker]
+	[\033[91m21\033[92m] Osif [FbInfo]
+	[\033[91m22\033[92m] RedHawk [Pentesting]
+	[\033[91m23\033[92m] HttpLiveProxyGrabber 
+	[\033[91m24\033[92m] ToolB0x [Pentesting]
+	[\033[91m25\033[92m] A-Rat [RatMaker]
+	[\033[91m26\033[92m] Metasploit Framawork 
+	[\033[91m27\033[92m] Slowloris [DDOsAttacker]
 	[\033[91m28\033[92m] IP-Tracker
-	[\033[91m29\033[92m] XXstrike
-	[\033[91m30\033[92m] Hash Bruster
-	[\033[91m31\033[92m] Strike (Scanner)
-	[\033[91m32\033[92m] SqlMate
-	[\033[91m33\033[92m] Blazy - Brute Page Page
-	[\033[91m34\033[92m] RouterSploit
-	[\033[91m35\033[92m] Wifite
-	[\033[91m36\033[92m] Fluxion  
-	[\033[91m37\033[92m] Airgeddon
-	[\033[91m38\033[92m] Raccoon Scanner
-	[\033[91m39\033[92m] Kadabra (LFI Scanner)
-	[\033[91m40\033[92m] Hashcat
-	[\033[91m41\033[92m] RarCracker
-	[\033[91m42\033[92m] SocialFish
-	[\033[91m43\033[92m] Evilginx - MITM
-	[\033[91m44\033[92m] TheHarvester
+	[\033[91m29\033[92m] XXstrike [Pentesting]
+	[\033[91m30\033[92m] Hash Bruster 
+	[\033[91m31\033[92m] Strike [Pentesting]
+	[\033[91m32\033[92m] SqlMate [Mini Salmap]
+	[\033[91m33\033[92m] Blazy [Brute Page Page]
+	[\033[91m34\033[92m] RouterSploit [Pentesting]
+	[\033[91m35\033[92m] Wifite [WPSAttacker]
+	[\033[91m36\033[92m] Fluxion [WifiAttacker]
+	[\033[91m37\033[92m] Airgeddon [WifiAttacker]
+	[\033[91m38\033[92m] Raccoon [Pentesting] 
+	[\033[91m39\033[92m] Kadabra [LFI Scanner]
+	[\033[91m40\033[92m] Hashcat [identify&hasher]
+	[\033[91m41\033[92m] RarCracker [Bruter]
+	[\033[91m42\033[92m] SocialFish [phishing]
+	[\033[91m43\033[92m] Evilginx [MITM] 
+	[\033[91m44\033[92m] TheHarvester [MailGrabber]
 	[\033[91m45\033[92m] Recon-ng
-	[\033[91m46\033[92m] BingGo
-	[\033[91m47\033[92m] Spammer-mail
-	[\033[91m48\033[92m] FBI (Fb Info)
-	[\033[91m49\033[92m] D-Tect
-	[\033[91m50\033[92m] MisterSpyV5
+	[\033[91m46\033[92m] BingGo [Dorker]
+	[\033[91m47\033[92m] Spammer-mail [Sender]
+	[\033[91m48\033[92m] FBI [FbInfo]
+	[\033[91m49\033[92m] D-Tect [Pentesting]
+	[\033[91m50\033[92m] MisterSpyV5 [AutoExploit]
+	[\033[91m51\033[92m] Facebook SpamMessanger 
+	[\033[91m52\033[92m] BruterFacebook [VIP]
+	[\033[91m53\033[92m] Facebook Bot 
+	[\033[91m54\033[92m] Fsociety [Pentesting]
+	[\033[91m55\033[92m] Shell-scan 
+	[\033[91m56\033[92m] Myserver [ServerBeginner]
+	[\033[91m57\033[92m] Bypass Recaptcha [Nice One xD]
+	[\033[91m58\033[92m] Kali Nethunter
+	[\033[91m59\033[92m] Metasploit Termux
+	[\033[91m60\033[92m] Devploit [Pentesting]
+	[\033[91m61\033[92m] Santet [Pentesting]
 %s<=====================================>
 	%s[666] Back
 	[\|/] %s Tool Installed In Jogan's Dict 
@@ -148,7 +162,7 @@ def nigga():
 		if msf =='666':
 			nigga()
 		elif msf =='1':
-			os.system('git clone https://github.com/NullArray/AutoSploit && cp AutoSploit /usr/bin/AutoSploit && chmod +x /usr/bin/AutoSploit && chmod +x install.sh && ./install.sh && python2 autosploit.py')
+			os.system('git clone https://github.com/NullArray/AutoSploit && cd AutoSploit && chmod +x install.sh && python2 autosploit.py')
   		elif msf =='2':
   			os.system('sudo apt-get install nikto')
 		elif msf =='3':
@@ -181,13 +195,13 @@ def nigga():
 		elif msf =='16':
 			os.system('pip install parse')
 		elif msf =='17':
-			os.system('git clone https://github.com/m4rktn/zeroeye & cd zeroeye && python dream.py')
+			os.system('git clone https://github.com/m4rktn/zeroeye && cd zeroeye && python dream.py')
 		elif msf =='18':
 			print " Mazeel .."
 		elif msf =='19':
 			os.system('')
 		elif msf =='20':
-			os.system('git clone https://github.com/04x/instagramCracker && cd instagramCracker && echo You Need 2 Lists : list Combo (user:pass) and list proxy')
+			os.system('git clone https://github.com/04x/instagramCracker && cd instagramCracker && clear && ls -l && echo You Need 2 Lists : list Combo (user:pass) and list proxy')
 		elif msf =='21':
 			os.system('')
 		elif msf =='22':
@@ -197,7 +211,7 @@ def nigga():
 		elif msf =='24':
 			os.system('git clone https://github.com/04x/ToolB0x && cd ToolB0x && python ToolB0x.py')
 		elif msf =='25':
-			os.system(' git clone https://github.com/Xi4u7/A-Rat.git && cd A-Rat &&  chmod +x A-Rat.py && python2 A-Rat.py')
+			os.system('git clone https://github.com/Xi4u7/A-Rat.git && cd A-Rat &&  chmod +x A-Rat.py && python2 A-Rat.py')
 		elif msf =='26':
 			os.system('wget https://Auxilus.github.io/metasploit.sh && echo run bash metasploit.sh Or ./msfconsole ^^ ')
 		elif msf =='27':
@@ -221,7 +235,7 @@ def nigga():
 		elif msf =='36':
 			os.system('git clone https://www.github.com/FluxionNetwork/fluxion.git && cd fluxion && ./fluxion.sh ')
 		elif msf =='37':
-			os.system('git clone --depth 1 https://github.com/v1s1t0r1sh3r3/airgeddon.git && cd airgeddon && clear && echo use : bash airgeddon.sh')
+			os.system('git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git && cd airgeddon && clear && echo use : bash airgeddon.sh')
 		elif msf =='38':
 			os.system('pip install raccoon-scanner')
 		elif msf =='39':
@@ -237,7 +251,7 @@ def nigga():
 		elif msf =='44':
 			os.system('git clone https://github.com/laramies/theHarvester && cd theHarvester && chmod +x theHarvester.py && ./theHarvester.py')
 		elif msf =='45':
-			os.system('git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git && cd recon-ng && pip install -r REQUIREMENTS && ./recon-ng -h')
+			os.system('git clone git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git && cd recon-ng && pip install -r REQUIREMENTS && ./recon-ng -h')
 		elif msf =='46':
 			os.system('git clone https://github.com/Hood3dRob1n/BinGoo && cd binGoo && chmod +x bingoo && ./bingoo')
 		elif msf =='47':
@@ -248,6 +262,28 @@ def nigga():
 			os.system('git clone https://github.com/shawarkhanethicalhacker/D-TECT-1 d-tect && cd d-tect && ls')
 		elif msf =='50':
 			os.system('git clone https://github.com/m4rktn/mrspyv5/ && clear && cd mrspyv5 && ls -l && echo Enjoy ^^')
+		elif msf=='51':
+			os.system('git clone https://github.com/errorBrain/spamchat.git && cd Spamchat && pip2 install -r requirements.txt && python2 messenger.py')
+		elif msf=='52':
+			os.system('git clone https://github.com/Senitopeng/fbbrute && cd fbbrute && python2 MBF.py')
+		elif msf=='53':
+			os.system('git clone https://github.com/sandalpenyok/kojawafft && cd kojawafft && nzip node_modules.zip && echo usage : node index.js')
+		elif msf=='54':
+			os.system('git clone https://github.com/Manisso/fsociety.git && cd fsociety && chmod +x fsociety.py && python2 fsociety ')
+		elif msf=='55':
+			os.system('git clone https://github.com/Rhi7/shell-scan && cd shell-scan && chmod +x shell.py && echo usage :  python shell.py -u site.tn -w wordlist.txt')
+		elif msf=='56':
+			os.system('git clone https://github.com/Rajkumrdusad/MyServer.git && cd MyServer && chmod +x install && ./install && clear && echo just run : myserver ')
+		elif msf=='57':
+			os.system('git clone https://github.com/GoogleX133/GoogleSearch-CLI.git && cd GoogleSearch-CLI && php GoogleSearch.php')
+		elif msf=='58':
+			os.system('curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter && chmod +x kalinethunter && bash kalinethunter && clear && startkali')
+		elif msf=='59':
+			os.system('git clone https://github.com/Hax4us/Metasploit_termux && cd Metasploit_termux &&  bash metasploit.sh && clear && echo usage : msfconsole ')
+		elif msf=='60':
+			os.system('git clone https://github.com/joker25000/Devploit.git && cd Devploit && clear && echo usage :python2 Devploit.py')
+		elif msf=='61':
+			os.system('git clone https://github.com/Gameye98/santet-online && cd santet-online && python2 santet.py')		
 		else:
 			baka=raw_input("%sNani Sir ?? Do u need To return ?[Y/n]: \033[00m"%cyan)
 			if baka.upper() =='Y':
@@ -282,14 +318,23 @@ def nigga():
 	 elif sasuke=='3':
 			os.system('sudo apt-get install postgresql postgresql-contrib')
 	 elif sasuke=='4':
-			os.system('git clone https://github.com/beefproject/beef && && cd beefproject && chmod +x install && ./install')
+			os.system('git clone https://github.com/beefproject/beef && chmod +x install && ./install')
 	 elif sasuke=='5':
 			os.system('git clone https://github.com/dradis/dradis-ce.git && cd dradis-ce/ && ./bin/setup')
 	 elif sasuke=='6':
 			os.system('apt-get install python-software-properties && apt-get install sqlite3 && sudo add-apt-repository ppa:mrazavi/openvas && apt-get update && apt-get install openvas') 
 	 elif sasuke=='7':
-			os.system('apt-get install ftp && ssh && filezila && openvpn && rdesktop && sudo &&')
+			os.system('apt-get install ftp && ssh && filezila && openvpn && rdesktop && sudo ')
+	 else:
+	 	baka=raw_input("%sNani Sir ?? Do u need To return ?[Y/n]: \033[00m"%cyan)
+		if baka.upper() =='Y':
+			nigga()
+		else:
+			print "%sOkk Senpai ... Thnx To Use JoGanInstaller\033[00m"%la5dhar
+			exit()
 	elif mark =='7':
+		os.system('cat termuhelper.txt')
+	elif mark =='8':
 		print """%s
 Name :%szack%s
 Nickname : %sM4rkWalker%s
@@ -302,6 +347,8 @@ Github : %s/m4rktn%s
 Message : %si Wr0te This Script In My First 10days coding ... 
 Thnx To Use JoGanInstaller .. i Wish That This Tool Help U ^.^ %s"""%(la5dhar,bigas,bigbbs,bigas,bigbbs,bigas,bigbbs,bigas,bigbbs,bigas,bigbbs,bigas,bigbbs,bigas,bigbbs,bigas,bigbbs,bigas,bigbbs)
 		exit()	
+	elif mark =='9':
+		os.system('chmod +x update.sh && ./update.sh')
 	else:
 			print "%sOkk Senpai ... Thnx To Use JoGanInstaller\033[00m"%la5dhar
 			exit()
