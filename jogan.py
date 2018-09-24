@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# encoding: utf-8
 ######### We Start with a shit xD  #########
 #Coded By M4rkWalker
 #youtube : M4rkWAlker 
@@ -7,7 +9,7 @@ import os,sys,re,os.path
 from platform import system
 #########   Some Kind   #########
 DIR =os.getcwd()
-jogandicc= len([name for name in os.listdir(DIR) if os.path.isdir(os.path.join(DIR, name))])
+jogandicc = len([name for name in os.listdir(DIR) if os.path.isdir(os.path.join(DIR, name))])
 #########   Some Colors   #########
 la7mar  = '\033[91m'
 lazra9  = '\033[94m'
@@ -23,31 +25,33 @@ bigbbs  = '\033[27m'
 hell    = '\033[05m'
 saker   = '\033[25m'
 cyan    = '\033[0;96m'
+logo="""
+      ██╗ ██████╗  ██████╗  █████╗ ███╗   ██╗
+      ██║██╔═══██╗██╔════╝ ██╔══██╗████╗  ██║
+      ██║██║   ██║██║  ███╗███████║██╔██╗ ██║
+ ██   ██║██║   ██║██║   ██║██╔══██║██║╚██╗██║
+ ╚█████╔╝╚██████╔╝╚██████╔╝██║  ██║██║ ╚████║
+  ╚════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝                              
+"""
 def nigga():
 #########   Menu   #########
 	os.system('clear')
 	print """%s%s
-	########################################################
-	# JoGanInstaller                                       #	
-	# Coded By M4rkWalker (Github.com/M4rktn)              #	
-	# Used 4 Linux And Termux                              #	
-	# Packages Installer & Services Panel	               #	
-	# Fix Python And Perl Problems With Installing Modules #	
-	# Install Pentesting Tools                             #	
-	# Update And Upgrade Os...                             #	
-	########################################################
+ %s
+ #JoGanInstaller                                       	
+ #Coded By \033[94mM4rkWalker\033[91m (\033[93mGithub.com\033[91m/\033[93mM4rktn\033[91m)        	
 	%s
-	[%s!%s] U Should Run it With r00t 
-	(1)  %sInstall Python-Pip %s
-	(2)  %sInstall Important Packages To Ur Linux%s(%sOr Termux%s)
-	(3)  %sInstall Modules%s(%sPython %s&%s Perl%s) 
-	(4)  %sInstall Pentest tools%s
-	(5)  %sUpdate And Upgrade %s
-	(6)  %sServices %s
-	(7)  %sTermux'sTouch Keyboard%s
-	(8)  %sAbout Th3Coder & Exit%s
-	(9)  %sUpdate Jogan%s
-	 """%(blid,lasfar,lazra9,la7mar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,la7mar,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9)
+ [%s!%s] U Should Run it With r00t 
+ (1)  %sInstall Python-Pip %s
+ (2)  %sInstall Important Packages To Ur Linux%s(%sOr Termux%s)
+ (3)  %sInstall Modules%s(%sPython %s&%s Perl%s) 
+ (4)  %sInstall Pentest tools%s 
+ (5)  %sUpdate And Upgrade %s
+ (6)  %sServices %s
+ (7)  %sTermux'sTouch Keyboard%s
+ (8)  %sAbout Th3Coder & Exit%s
+ (9)  %sUpdate Jogan%s
+	 """%(blid,lasfar,logo,lazra9,la7mar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,la7mar,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9,la5dhar,lazra9)
 #########   SYsT3M   #########
 	poop =['requests','setuptools','pymssql','crypto','openssl','mechanize','stem','pysocks','fuzzywuzzy','validate_email','wheel','python-Levenshtein','SleekXMPP','xmppy','beautifulsoup4','','','prettytable','colorama','lxml','bs4','dnspython','httplib2']
 	home=['Parallel/ForkManager.pm','WWW::Mechanize;','DBI','HTTP::Response','HTTP::Request','Net::SSLeay','YAML','MIME::Base64','LWP::UserAgent','Getopt::Std','Moose','threads','threads::shared'] 
@@ -69,10 +73,8 @@ def nigga():
 	elif mark =='3':
 		os.system('clear')
 		print """ 
-
 		[1] > Perl 
 		[2] > Python
-
 		"""
 		marron =raw_input("%s%sjogan%s > %s"%(star,ramadi,starend,lazra9))
 		if maroon =='1':
@@ -162,128 +164,267 @@ def nigga():
 		if msf =='666':
 			nigga()
 		elif msf =='1':
-			os.system('git clone https://github.com/NullArray/AutoSploit && cd AutoSploit && chmod +x install.sh && python2 autosploit.py')
+			if not os.path.isdir('AutoSploit'):
+			 os.system('git clone https://github.com/NullArray/AutoSploit && cd AutoSploit && chmod +x install.sh && python2 autosploit.py')
+  			else: 
+  				os.system('cd AutoSploit && python2 autosploit.py')
   		elif msf =='2':
-  			os.system('sudo apt-get install nikto')
+  			 os.system('sudo apt-get install nikto')
 		elif msf =='3':
-			os.system('pip install sqlmap')
+			 os.system('pip install sqlmap')
 		elif msf =='4':
-			os.system('sudo apt-get install nmap')
+			 os.system('sudo apt-get install nmap')
 		elif msf =='5':
-			os.system('apt-get install zenmap')
+			 os.system('apt-get install zenmap')
 		elif msf =='6':
-			os.system('apt-get install hydra hydra-gtk')
-		elif msf =='7':
-			os.system('apt-get install ophcrack')
+				os.system('apt-get install hydra hydra-gtk')
+ 		elif msf =='7':
+			 os.system('apt-get install ophcrack')
 		elif msf =='8':
-			os.system('apt-get install whatweb')
+			 os.system('apt-get install whatweb')
 		elif msf =='9':
-			os.system('sudo apt-get install w3af w3af-console')
+			 os.system('sudo apt-get install w3af w3af-console')
 		elif msf =='10':
-			os.system('sudo apt-get install wireshark')
+			 os.system('sudo apt-get install wireshark')
 		elif msf =='11':
-			os.system('sudo apt-get install john')
+			 os.system('sudo apt-get install john')
 		elif msf =='12':
-			os.system('sudo apt-get install netsniff-ng')
+			 os.system('sudo apt-get install netsniff-ng')
 		elif msf =='13':
-			os.system('sudo apt-get install ettercap-graphical && apt-get install ettercap-common && apt-get install ettercap-dbg')
-		elif msf =='14':
-			os.system('sudo apt-get droopescan')
+			 os.system('sudo apt-get install ettercap-graphical && apt-get install ettercap-common && apt-get install ettercap-dbg')
+  		elif msf =='14':
+			 os.system('sudo apt-get droopescan')
 		elif msf =='15':
-			os.system('sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev')
-			os.system('git clone https://github.com/wpscanteam/wpscan.git && cd wpscan && sudo gem install bundler && bundle install --without test')
+			if not os.path.isdir('wpscan'):
+			 os.system('sudo apt-get install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev')
+			 os.system('pkg install libcurl4-openssl-dev libxml2 libxml2-dev libxslt1-dev ruby-dev build-essential libgmp-dev zlib1g-dev')
+			 os.system('git clone https://github.com/wpscanteam/wpscan.git && cd wpscan && sudo gem install bundler && bundle install --without test')
+  			else: 
+  				os.system('wpscan')
 		elif msf =='16':
-			os.system('pip install parse')
+			 os.system('pip install parse')
 		elif msf =='17':
-			os.system('git clone https://github.com/m4rktn/zeroeye && cd zeroeye && python dream.py')
+			if not os.path.isdir('zeroeye'):
+			 os.system('git clone https://github.com/m4rktn/zeroeye && cd zeroeye && python3 dream.py')
+  			else: 
+  				os.system('cd zeroeye && python3 dream.py ')
 		elif msf =='18':
-			print " Mazeel .."
+			if not os.path.isdir(''):
+			 print " Mazeel .."
+  			else: 
+  				os.system('')
 		elif msf =='19':
-			os.system('')
+			if not os.path.isdir(''):
+			 os.system('')
+  			else: 
+  				os.system('')
 		elif msf =='20':
-			os.system('git clone https://github.com/04x/instagramCracker && cd instagramCracker && clear && ls -l && echo You Need 2 Lists : list Combo (user:pass) and list proxy')
+			if not os.path.isdir('instagramCracker'):
+			 os.system('git clone https://github.com/04x/instagramCracker && cd instagramCracker && clear && ls -l && echo You Need 2 Lists : list Combo user:pass and list proxy')
+  			else: 
+  				os.system('cd instagramCracker && clear && ls -l && echo You Need 2 Lists : list Combo (user:pass) and list proxy ')
 		elif msf =='21':
-			os.system('')
+			if not os.path.isdir('OSIF'):
+			 os.system('git clone https://github.com/CiKu370/OSIF && cd OSIF && pip2 install -r requirements.txt && python2 osif.py')
+  			else: 
+  				os.system('cd OSIF && python2 osif.py')
 		elif msf =='22':
-			os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK && cd RED_HAWK && php rhawk.php')
+			if not os.path.isdir('RED_HAWK'):
+			 os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK && cd RED_HAWK && php rhawk.php')
+  			else: 
+  				os.system('cd RED_HAWK && php rhawk.php')
 		elif msf =='23':
-			os.system('git clone https://github.com/04x/HttpLiveProxyGrabber && cd HttpLiveProxyGrabber ')
+			if not os.path.isdir('HttpLiveProxyGrabber'):
+			 os.system('git clone https://github.com/04x/HttpLiveProxyGrabber && cd HttpLiveProxyGrabber && python2 ProxGrab.py')
+  			else: 
+  				os.system('cd HttpLiveProxyGrabber && python2 ProxGrab.py')
 		elif msf =='24':
-			os.system('git clone https://github.com/04x/ToolB0x && cd ToolB0x && python ToolB0x.py')
+			if not os.path.isdir('ToolB0x'):
+			 os.system('git clone https://github.com/04x/ToolB0x && cd ToolB0x && python2 ToolB0x.py')
+  			else: 
+  				os.system('cd ToolB0x && python2 ToolB0x.py')
 		elif msf =='25':
-			os.system('git clone https://github.com/Xi4u7/A-Rat.git && cd A-Rat &&  chmod +x A-Rat.py && python2 A-Rat.py')
+			if not os.path.isdir('A-Rat'):
+			 os.system('git clone https://github.com/Xi4u7/A-Rat.git && cd A-Rat &&  chmod +x A-Rat.py && python2 A-Rat.py')
+  			else: 
+  				os.system('cd A-Rat && python2 A-Rat.py')
 		elif msf =='26':
-			os.system('wget https://Auxilus.github.io/metasploit.sh && echo run bash metasploit.sh Or ./msfconsole ^^ ')
+			if not os.path.isdir('metasploit'):
+			 os.system('cd metasploit && wget https://Auxilus.github.io/metasploit.sh && echo run bash metasploit.sh Or ./msfconsole ^^ ')
+  			else: 
+  				os.system('cd metasploit && ./msfconsole')
 		elif msf =='27':
-			os.system('pip3 install PySocks && git clone https://github.com/gkbrk/slowloris && cd slowloris && echo run python3 slowloris.py www.site.tn ')
+			if not os.path.isdir('slowloris'):
+			 os.system('pip3 install PySocks && git clone https://github.com/gkbrk/slowloris && cd slowloris && echo run python3 slowloris.py www.site.tn ')
+  			else: 
+  				os.system('cd slowloris && python3 slowloris.py')
 		elif msf =='28':
-			os.system('git clone https://github.com/Rajkumrdusad/IP-Tracer && cd IP-Tracer && chmod +x install && ./install && ip-tracer')
+			if not os.path.isdir('IP-Tracer'):
+			 os.system('git clone https://github.com/Rajkumrdusad/Tracer && cd IP-Tracer && chmod +x install && ./install && ip-tracer')
+  			else: 
+  				os.system('cd IP-Tracer && ip-tracer ')
 		elif msf =='29':
-			os.system('git clone https://github.com/s0md3v/XSStrike && cd XSStrike && pip install -r requirements.txt && python xsstrike.py')
+			if not os.path.isdir('XSStrike'):
+			 os.system('git clone https://github.com/s0md3v/XSStrike && cd XSStrike && pip install -r requirements.txt && python xsstrike.py')
+  			else: 
+  				os.system('cd XSStrike && python xsstrike.py')
 		elif msf =='30':
-			os.system('git clone https://github.com/s0md3v/Hash-Buster && cd Hash-Buster && make install && echo run : buster -s <hash>')
+			if not os.path.isdir('Hash-Buster'):
+			 os.system('git clone https://github.com/s0md3v/Hash-Buster && cd Hash-Buster && make install && echo run : buster -s <hash>')
+  			else: 
+  				os.system('cd Hash-Buster && echo run : buster -s <hash>')
 		elif msf =='31':
-			os.system('git clone https://github.com/UltimateHackers/Striker && cd Striker &&pip install -r requirements.txt && python striker.py')
+			if not os.path.isdir('Striker'):
+			 os.system('git clone https://github.com/UltimateHackers/Striker && cd Striker && pip install -r requirements.txt && python striker.py')
+  			else: 
+  				os.system('cd Striker && python striker.py')
 		elif msf =='32':
-			os.system('git clone https://github.com/s0md3v/sqlmate && cd sqlmap && pip install -r requirements.txt && python sqlmap')
+			if not os.path.isdir('sqlmate'):
+			 os.system('git clone https://github.com/s0md3v/sqlmate && cd sqlmap && pip install -r requirements.txt && python sqlmap')
+  			else: 
+  				os.system('cd sqlmate && python sqlmap')
 		elif msf =='33':
-			os.system('git clone https://github.com/s0md3v/Blazy && cd Blazy && pip install -r requirements.txt && python blazy.py')
+			if not os.path.isdir('Blazy'):
+			 os.system('git clone https://github.com/s0md3v/Blazy && cd Blazy && pip install -r requirements.txt && python blazy.py')
+  			else: 
+  				os.system('cd Blazy && python blazy.py')
 		elif msf =='34':
-			os.system('git clone https://www.github.com/threat9/routersploit && cd routersploit && pip3 install -r requirements.txt && apt-get install libglib2.0-dev && pip3 install bluepy && python3 rsf.py')
+			if not os.path.isdir('routersploit'):
+			 os.system('git clone https://www.github.com/threat9/routersploit && cd routersploit && pip3 install -r requirements.txt && apt-get install libglib2.0-dev && pip3 install bluepy && python3 rsf.py')
+  			else: 
+  				os.system('cd routersploit && python3 rsf.py')
 		elif msf =='35':
-			os.system('wget https://raw.github.com/derv82/wifite/master/wifite.py && chmod +x wifite.py && ./wifite.py')
+			if not os.path.isdir('wifite'):
+			 os.system('wget https://raw.github.com/derv82/wifite/master/wifite.py && chmod +x wifite.py && ./wifite.py')
+  			else: 
+  				os.system('cd wifite && ./wifite.py')
 		elif msf =='36':
-			os.system('git clone https://www.github.com/FluxionNetwork/fluxion.git && cd fluxion && ./fluxion.sh ')
+			if not os.path.isdir('fluxion'):
+			 os.system('git clone https://www.github.com/FluxionNetwork/fluxion.git && cd fluxion && ./fluxion.sh ')
+  			else: 
+  				os.system('cd fluxion && ./fluxion.sh')
 		elif msf =='37':
-			os.system('git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git && cd airgeddon && clear && echo use : bash airgeddon.sh')
+			if not os.path.isdir('airgeddon'):
+			 os.system('git clone https://github.com/v1s1t0r1sh3r3/airgeddon.git && cd airgeddon && clear && echo use : bash airgeddon.sh')
+  			else: 
+  				os.system('cd airgeddon && bash airgeddon.sh')
 		elif msf =='38':
-			os.system('pip install raccoon-scanner')
+			 os.system('pip install raccoon-scanner')
 		elif msf =='39':
-			os.system('git clone https://github.com/D35m0nd142/Kadabra && cd Kadabra && bash make.bash')
+			if not os.path.isdir('Kadabra'):
+			 os.system('git clone https://github.com/D35m0nd142/Kadabra && cd Kadabra && bash make.bash')
+  			else: 
+  				os.system('cd Kadabra && bash make.bash')
 		elif msf =='40':
-			os.system('wget https://hashcat.net/files/hashcat-4.2.1.tar.gz && tar -xzvf hashcat-4.2.1.tar.gz && cd hashcat-4.2.1 && bash makefile')
+			if not os.path.isdir('hashcat-4.2.1'):
+			 os.system('wget https://hashcat.net/files/hashcat-4.2.1.tar.gz && tar -xzvf hashcat-4.2.1.tar.gz && cd hashcat-4.2.1 && bash makefile')
+  			else: 
+  				os.system('cd hashcat-4.2.1 && bash makefile')
 		elif msf =='41':
-			os.system('wget https://netix.dl.sourceforge.net/project/rarcrack/rarcrack-0.2/%5BUnnamed%20release%5D/rarcrack-0.2.tar.bz2 && tar - xzvf rarcrack-0.2.tar.bz2 && cd rarcrack-0.2 && bash makefile')
+			if not os.path.isdir('rarcrack-0.2'):
+			 os.system('wget https://netix.dl.sourceforge.net/project/rarcrack/rarcrack-0.2/%5BUnnamed%20release%5D/rarcrack-0.2.tar.bz2 && tar - xzvf rarcrack-0.2.tar.bz2 && cd rarcrack-0.2 && bash makefile')
+  			else: 
+  				os.system('')
 		elif msf =='42':
-			os.system('git clone https://github.com/UndeadSec/SocialFish && cd SocialFish && pip3 install -r requirements.txt && echo usage : python3 SocialFish.py')
+			if not os.path.isdir('SocialFish'):
+			 os.system('git clone https://github.com/UndeadSec/SocialFish && cd SocialFish && pip3 install -r requirements.txt && echo usage : python3 SocialFish.py')
+  			else: 
+  				os.system('cd SocialFish && python3 SocialFish.py')
 		elif msf =='43':
-			os.system('git clone https://github.com/kgretzky/evilginx2 && cd evilginx2 && make install && evilginx ')
+			if not os.path.isdir('evilginx2'):
+			 os.system('git clone https://github.com/kgretzky/evilginx2 && cd evilginx2 && make install && evilginx ')
+  			else: 
+  				os.system('cd evilginx2 && evilginx')
 		elif msf =='44':
-			os.system('git clone https://github.com/laramies/theHarvester && cd theHarvester && chmod +x theHarvester.py && ./theHarvester.py')
+			if not os.path.isdir('theHarvester'):
+			 os.system('git clone https://github.com/laramies/theHarvester && cd theHarvester && chmod +x theHarvester.py && ./theHarvester.py')
+  			else: 
+  				os.system('cd theHarvester && ./theHarvester.py')
 		elif msf =='45':
-			os.system('git clone git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git && cd recon-ng && pip install -r REQUIREMENTS && ./recon-ng -h')
+			if not os.path.isdir('recon-ng'):
+			 os.system('git clone git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git && cd recon-ng && pip install -r REQUIREMENTS && ./recon-ng -h')
+  			else: 
+  				os.system('cd recon-ng && ./recon-ng')
 		elif msf =='46':
-			os.system('git clone https://github.com/Hood3dRob1n/BinGoo && cd binGoo && chmod +x bingoo && ./bingoo')
+			if not os.path.isdir('BinGoo'):
+			 os.system('git clone https://github.com/Hood3dRob1n/BinGoo && cd binGoo && chmod +x bingoo && ./bingoo')
+  			else: 
+  				os.system('cd BinGoo && ./bingoo')
 		elif msf =='47':
-			os.system('git clone https://github.com/p4kl0nc4t/Spammer-Email && cd Spammer-Email && echo usage : python spammer_email.py')
+			if not os.path.isdir('Spammer-Email'):
+			 os.system('git clone https://github.com/p4kl0nc4t/Spammer-Email && cd Spammer-Email && echo usage : python spammer_email.py')
+  			else: 
+  				os.system('cd Spammer-Email && python spammer_email.py')
 		elif msf =='48':
-			os.system('git clone https://github.com/xHak9x/fbi && cd fbi && pip2 install -r requirements.txt && python2 fbi.py')
+			if not os.path.isdir('fbi'):
+			 os.system('git clone https://github.com/xHak9x/fbi && cd fbi && pip2 install -r requirements.txt && python2 fbi.py')
+  			else: 
+  				os.system('cd fbi && python2 fbi.py')
 		elif msf =='49':
-			os.system('git clone https://github.com/shawarkhanethicalhacker/D-TECT-1 d-tect && cd d-tect && ls')
+			if not os.path.isdir('d-tect'):
+			 os.system('git clone https://github.com/shawarkhanethicalhacker/D-TECT-1 d-tect && cd d-tect && ls')
+  			else: 
+  				os.system('cd d-tect && python2 d-tect.py ')
 		elif msf =='50':
-			os.system('git clone https://github.com/m4rktn/mrspyv5/ && clear && cd mrspyv5 && ls -l && echo Enjoy ^^')
+			if not os.path.isdir('mrspyv5'):
+			 os.system('git clone https://github.com/m4rktn/mrspyv5/ && clear && cd mrspyv5 && ls -l && echo Enjoy ^^')
+  			else: 
+  				os.system('cd mrspyv5 && ls -l')
 		elif msf=='51':
-			os.system('git clone https://github.com/errorBrain/spamchat.git && cd Spamchat && pip2 install -r requirements.txt && python2 messenger.py')
+			if not os.path.isdir('spamchat'):
+			 os.system('git clone https://github.com/errorBrain/spamchat.git && cd Spamchat && pip2 install -r requirements.txt && python2 messenger.py')
+  			else: 
+  				os.system('cd spamchat && python2 messenger.py')
 		elif msf=='52':
-			os.system('git clone https://github.com/Senitopeng/fbbrute && cd fbbrute && python2 MBF.py')
+			if not os.path.isdir('fbbrute'):
+			 os.system('git clone https://github.com/Senitopeng/fbbrute && cd fbbrute && python2 MBF.py')
+  			else: 
+  				os.system('cd fbbrute && python2 MBF.py')
 		elif msf=='53':
-			os.system('git clone https://github.com/sandalpenyok/kojawafft && cd kojawafft && nzip node_modules.zip && echo usage : node index.js')
+			if not os.path.isdir('kojawafft'):
+			 os.system('git clone https://github.com/sandalpenyok/kojawafft && cd kojawafft && nzip node_modules.zip && echo usage : node index.js')
+  			else: 
+  				os.system('cd kojawafft && node index.js')
 		elif msf=='54':
-			os.system('git clone https://github.com/Manisso/fsociety.git && cd fsociety && chmod +x fsociety.py && python2 fsociety ')
+			if not os.path.isdir('fsociety'):
+			 os.system('git clone https://github.com/Manisso/fsociety.git && cd fsociety && chmod +x fsociety.py && python2 fsociety.py ')
+  			else: 
+  				os.system('cd fsociety && python2 fsociety.py')
 		elif msf=='55':
-			os.system('git clone https://github.com/Rhi7/shell-scan && cd shell-scan && chmod +x shell.py && echo usage :  python shell.py -u site.tn -w wordlist.txt')
+			if not os.path.isdir('shell-scan'):
+			 os.system('git clone https://github.com/Rhi7/shell-scan && cd shell-scan && chmod +x shell.py && echo usage :  python shell.py -u site.tn -w wordlist.txt')
+  			else: 
+  				os.system('cd shell-scan && python shell.py')
 		elif msf=='56':
-			os.system('git clone https://github.com/Rajkumrdusad/MyServer.git && cd MyServer && chmod +x install && ./install && clear && echo just run : myserver ')
+			if not os.path.isdir('MyServer'):
+			 os.system('git clone https://github.com/Rajkumrdusad/MyServer.git && cd MyServer && chmod +x install && ./install && clear && echo just run : myserver ')
+  			else: 
+  				os.system('cd MyServer && myserver')
 		elif msf=='57':
-			os.system('git clone https://github.com/GoogleX133/GoogleSearch-CLI.git && cd GoogleSearch-CLI && php GoogleSearch.php')
+			if not os.path.isdir('GoogleSearch-CLI'):
+			 os.system('git clone https://github.com/GoogleX133/GoogleSearch-CLI.git && cd GoogleSearch-CLI && php GoogleSearch.php')
+  			else: 
+  				os.system('cd GoogleSearch-CLI && php GoogleSearch.php')
 		elif msf=='58':
-			os.system('curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter && chmod +x kalinethunter && bash kalinethunter && clear && startkali')
+			if not os.path.isdir('kalinethunter'):
+			 os.system('curl -LO https://raw.githubusercontent.com/Hax4us/Nethunter-In-Termux/master/kalinethunter && chmod +x kalinethunter && bash kalinethunter && clear && startkali')
+  			else: 
+  				os.system('cd kalinethunter && startkali')
 		elif msf=='59':
-			os.system('git clone https://github.com/Hax4us/Metasploit_termux && cd Metasploit_termux &&  bash metasploit.sh && clear && echo usage : msfconsole ')
+			if not os.path.isdir('Metasploit_termux'):
+			 os.system('git clone https://github.com/Hax4us/Metasploit_termux && cd Metasploit_termux &&  bash metasploit.sh && clear && echo usage : msfconsole ')
+  			else: 
+  				os.system('cd Metasploit_termux && msfconsole')
 		elif msf=='60':
-			os.system('git clone https://github.com/joker25000/Devploit.git && cd Devploit && clear && echo usage :python2 Devploit.py')
+			if not os.path.isdir('Devploit'):
+			 os.system('git clone https://github.com/joker25000/Devploit.git && cd Devploit && clear && echo usage : \npython2 Devploit.py')
+  			else: 
+  				os.system('cd Devploit && python2 Devploit.py')
 		elif msf=='61':
-			os.system('git clone https://github.com/Gameye98/santet-online && cd santet-online && python2 santet.py')		
+			if not os.path.isdir('santet-online'):
+			 os.system('git clone https://github.com/Gameye98/santet-online && cd santet-online && python2 santet.py')		
+  			else: 
+  				os.system('cd santet-online && python2 santet.py')
 		else:
 			baka=raw_input("%sNani Sir ?? Do u need To return ?[Y/n]: \033[00m"%cyan)
 			if baka.upper() =='Y':
@@ -336,7 +477,7 @@ def nigga():
 			print "%sOkk Senpai ... Thnx To Use JoGanInstaller\033[00m"%la5dhar
 			exit()
 	elif mark =='7':
-		os.system('cat termuhelper.txt')
+		print"======= Source : https://wiki.termux.com/wiki/Touch_Keyboard =======\n====================================================================+with ctrl \n Ctrl+A → Move cursor to the beginning of line\n Ctrl+C → Abort (send SIGINT to) current process\n Ctrl+D → Logout of a terminal session\n Ctrl+E → Move cursor to the end of line\n Ctrl+K → Delete from cursor to the end of line\n Ctrl+L → Clear the terminal\n Ctrl+Z → Suspend (send SIGTSTP to) current process\n Ctrl+alt+C → Open new session (only work in Hacker's Keyboard)\n+ With Volume\n Volume Up+E → Escape key\n Volume Up+T → Tab key\n Volume Up+1 → F1 (and Volume Up+2 → F2, etc)\n Volume Up+0 → F10\n Volume Up+B → Alt+B, back a word when using readline\n Volume Up+F → Alt+F, forward a word when using readline\n Volume Up+X → Alt+X\n Volume Up+W → Up arrow key\n Volume Up+A → Left arrow key\n Volume Up+S → Down arrow key\n Volume Up+D → Right arrow key\n Volume Up+L → | (the pipe character)\n Volume Up+H → ~ (the tilde character)\n Volume Up+U → _ (underscore)\n Volume Up+P → Page Up\n Volume Up+N → Page Down\n Volume Up+. → Ctrl+\ (SIGQUIT)\n Volume Up+V → Show the volume control\n Volume Up+Q → Show extra keys view"
 	elif mark =='8':
 		print """%s
 Name :%szack%s
