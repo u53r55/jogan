@@ -58,31 +58,36 @@ def nigga():
 	mark =raw_input("%s%sjogan%s > %s"%(star,ramadi,starend,lazra9))
 	if mark =='1':
 		print "%s Python 2x # \033[00m"%la7mar
-		os.system("sudo apt-get install python-pip")
-		print " #%s Python 3x # \033[00m"%la7mar
-		os.system("sudo apt-get install python-pip3")
-	elif mark =='2':
-		merlin=raw_input("\033[94m1) \033[91mTermux\n\033[94m2)\033[91m Linux \n %s%sjogan%s > %s"%(star,ramadi,starend,lazra9))
-		if merlin =='1':
-			os.system('pkg install python2 && python3 && git && ruby && perl && php && nano && vim && wget')
-		elif merlin =='2':
-			os.system('sudo apt-get install python2 && python3 && git && ruby && perl && php && nano && vim')
+		if system() == 'Linux':
+		 os.system("sudo apt-get install python-pip")
 		else:
-			print "Okk Senpai ... Thnx To Use JoGanInstaller"
-			exit()
+			os.system("pkg install python-pip")
+		print " #%s Python 3x # \033[00m"%la7mar
+		if system() == 'Linux':
+		 os.system("sudo apt-get install python-pip3")
+		else:
+			os.system("pkg install python-pip3")
+	elif mark =='2':
+		if system() == 'Linux':#for Debien/UbuntU
+			os.system('sudo apt-get install python2 python3 git ruby perl php nano vim')
+		else:#4 termux
+			os.system('pkg install python2 python3 git ruby perl php nano vim wget sudo')
 	elif mark =='3':
 		os.system('clear')
 		print """ 
 		[1] > Perl 
 		[2] > Python
 		"""
-		marron =raw_input("%s%sjogan%s > %s"%(star,ramadi,starend,lazra9))
-		if maroon =='1':
-			os.system('sudo apt-get install build-essential')#For Termux Replace sudo apt-get with pkg
+		conan =raw_input("%s%sjogan%s > %s"%(star,ramadi,starend,lazra9))
+		if conan =='1':
+			if system() == 'Linux':
+			 os.system('sudo apt-get install build-essential')
+			else:
+				os.system('pkg install build-essential')
 			for me in home:
 				print "\033[91m[+] Install "+me
 				os.system("sudo cpan "+me)#need root acess ofc
-		elif marron =='2':
+		elif conan =='2':
 			for keke in poop:
 			 print "\033[91m[+] Install "+keke+' ...'
 			 os.system("pip install "+keke)
@@ -157,7 +162,7 @@ def nigga():
 	[\033[91m61\033[92m] Santet [Pentesting]
 %s<=====================================>
 	%s[666] Back
-	[\|/] %s Tool Installed In Jogan's Dict 
+	[ %s ] Tool Installed In Jogan's Dict 
 %s<=====================================>	
 		"""%(la7mar,hell,saker,hell,saker,lazra9,la7mar,bigas,lazra9,bigbbs,la5dhar,la7mar,lazra9,jogandicc,la7mar)
 		msf=raw_input("%s%sjogan%s > %s"%(star,ramadi,starend,lazra9))
@@ -207,22 +212,22 @@ def nigga():
 			if not os.path.isdir('zeroeye'):
 			 os.system('git clone https://github.com/m4rktn/zeroeye && cd zeroeye && python3 dream.py')
   			else: 
-  				os.system('cd zeroeye && python3 dream.py ')
+  				os.system('cd zeroeye && python3 dream.py')
 		elif msf =='18':
-			if not os.path.isdir(''):
-			 print " Mazeel .."
+			if not os.path.isdir('xsmash'):
+			 os.system('git clone https://github.com/m4rktn/xsmash && cd xsmash && python2 xsmash.py')
   			else: 
-  				os.system('')
+  				os.system('cd xsmash && python2 xsmash.py')
 		elif msf =='19':
-			if not os.path.isdir(''):
-			 os.system('')
+			if not os.path.isdir('xsmash'):
+			 os.system('git clone https://github.com/m4rktn/xsmash && cd xsmash && perl facebook.pl')
   			else: 
-  				os.system('')
+  				os.system('cd xsmash && perl facebook.pl')
 		elif msf =='20':
 			if not os.path.isdir('instagramCracker'):
 			 os.system('git clone https://github.com/04x/instagramCracker && cd instagramCracker && clear && ls -l && echo You Need 2 Lists : list Combo user:pass and list proxy')
   			else: 
-  				os.system('cd instagramCracker && clear && ls -l && echo You Need 2 Lists : list Combo (user:pass) and list proxy ')
+  				os.system('cd instagramCracker && clear && ls -l && echo You Need 2 Lists : list Combo user:pass and list proxy ')
 		elif msf =='21':
 			if not os.path.isdir('OSIF'):
 			 os.system('git clone https://github.com/CiKu370/OSIF && cd OSIF && pip2 install -r requirements.txt && python2 osif.py')
@@ -434,11 +439,10 @@ def nigga():
 				exit()
 
 	elif mark =='5':
-		merlin=raw_input("%s1) Termux\n2) Linux \n%s%sjogan%s > %s"%(la7mar,star,ramadi,starend,lazra9))
-		if merlin =='1':
+		if not system() == 'Linux':
 			os.system('apt Update && apt upgrade')
 			os.system('clear')
-		elif merlin =='2':
+		else:
 			os.system('sudo apt-get update && sudo apt-get upgrade')
 			os.system('clear')
 	elif mark =='6':
@@ -466,7 +470,7 @@ def nigga():
 	 elif sasuke=='6':
 			os.system('apt-get install python-software-properties && apt-get install sqlite3 && sudo add-apt-repository ppa:mrazavi/openvas && apt-get update && apt-get install openvas') 
 	 elif sasuke=='7':
-			os.system('apt-get install ftp && ssh && filezila && openvpn && rdesktop && sudo ')
+			os.system('apt-get install ftp ssh filezila openvpn rdesktop sudo ')
 	 elif sasuke=='666':
 	 	nigga()
 	 else:
@@ -484,8 +488,8 @@ Name :%szack%s
 Nickname : %sM4rkWalker%s
 Country : %sTN%s
 Age : %s19yo%s
-Faceook : %s[Not Avaible]%s
-Mail : %sDream0@protnmail.com%s
+FaceBook : %s[Not Avaible]%s
+Mail : %sDream0@protonmail.com%s
 Youtube : %sM4rkWalker%s
 Github : %s/m4rktn%s
 Message : %si Wr0te This Script In My First 10days coding ... 
